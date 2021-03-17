@@ -8,9 +8,17 @@ import benifit4 from '../Image/Benifits/benefits-04.png';
 import benifit5 from '../Image/Benifits/benefits-05.png';
 import benifit6 from '../Image/Benifits/benefits-06.png';
 function Panel() {
+	const a = [
+		'Up to 80%+ electricity bill savings',
+		'Good fort he Environment',
+		'Minimum Maintenance',
+		'Green Building Certifications',
+		'Scalable Design',
+		'Accelerated Depreciation for businesses',
+	];
+	const b = [benifit1, benifit2, benifit3, benifit4, benifit5, benifit6];
 	return (
 		<div className='panel'>
-			{' '}
 			<div className='showcase'>
 				<div className='container'>
 					<div className='row align-items-center'>
@@ -26,30 +34,9 @@ function Panel() {
 									citizen by contributing positively to the environment.
 								</p>
 								<div className='row text-center'>
-									<Benifit
-										img={benifit1}
-										text='Up to 80%+ electricity bill savings'
-									/>
-									<Benifit
-										img={benifit2}
-										text='Up to 80%+ electricity bill savings'
-									/>
-									<Benifit
-										img={benifit3}
-										text='Up to 80%+ electricity bill savings'
-									/>
-									<Benifit
-										img={benifit4}
-										text='Up to 80%+ electricity bill savings'
-									/>
-									<Benifit
-										img={benifit5}
-										text='Up to 80%+ electricity bill savings'
-									/>
-									<Benifit
-										img={benifit6}
-										text='Up to 80%+ electricity bill savings'
-									/>
+									{a.map((data, index) => (
+										<Benifit img={b[index]} text={data} key={index} />
+									))}
 								</div>
 
 								<a href='/' className='btn btn-outline-light pt-2 '>
