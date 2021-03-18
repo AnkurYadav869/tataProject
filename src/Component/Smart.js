@@ -7,7 +7,7 @@ import Card from './Card';
 import Heading from './Heading';
 function Smart() {
 	return (
-		<div className=' container'>
+		<div className=' container my-5'>
 			<Heading text='Smart Monitoring and Sensing' />
 			<div className='row align-items-center'>
 				<div className='col-sm-6'>
@@ -33,6 +33,12 @@ function Smart() {
 					<Card img={img4} />
 				</div>
 			</div>
+			<a
+				href='http://photonsolar.in/sheets/Photon_SolarRooftops_v8.pdf'
+				className='lead'
+			>
+				<u>Download Photon Solar Rooftops Brochure</u>
+			</a>
 		</div>
 	);
 }

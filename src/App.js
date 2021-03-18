@@ -5,6 +5,8 @@ import SystemContainer from './Component/SystemContainer';
 import NetMetering from './Component/NetMetering';
 import Panel from './Container/Panel';
 import Smart from './Component/Smart';
+import Footer from './Container/Footer';
+import Foot from './Component/Foot';
 
 const App = () => {
 	return (
@@ -15,6 +17,9 @@ const App = () => {
 			<Panel />
 			<NetMetering />
 			<Smart />
+			<Footer>
+				<Foot />
+			</Footer>
 		</div>
 	);
 };

@@ -10,8 +10,8 @@ const SystemContainer = () => {
 				</div>
 				<div className='col-md-8'>
 					<div
-						className='p-2 animated bounceInRight'
-						style={{ animationDelay: '1s' }}
+						className='p-2 wow FadeInUp'
+						style={{ animationDelay: '1s', animationName: 'FadeInUp' }}
 					>
 						<h5>What is Solar Rooftop?</h5>
 						<h2 className='text-primary'>HOW DOES ROOFTOP SYSTEM WORK?</h2>
