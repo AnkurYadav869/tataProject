@@ -9,16 +9,16 @@ import benifit5 from '../Image/Benifits/benefits-05.png';
 import benifit6 from '../Image/Benifits/benefits-06.png';
 function Panel() {
 	const a = [
-		'Up to 80%+ electricity bill savings',
-		'Good fort he Environment',
-		'Minimum Maintenance',
-		'Green Building Certifications',
-		'Scalable Design',
+		'Increase Bottom Line',
+		'Profit from Clean Energy',
+		'Save Income tax',
+		'Improve Building Life',
+		'Tariff Lock in',
 		'Accelerated Depreciation for businesses',
 	];
 	const b = [benifit1, benifit2, benifit3, benifit4, benifit5, benifit6];
 	return (
-		<div className='panel'>
+		<div className='panel my-5'>
 			<div className='showcase'>
 				<div className='container'>
 					<div className='row align-items-center'>

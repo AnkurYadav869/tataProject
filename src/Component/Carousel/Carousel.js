@@ -11,8 +11,8 @@ const Carousel = () => {
 				<CarouselItem cl='carousel-item active'>
 					<div className='banner1'>
 						<Showcase>
-							<Box clName='w-75 p-5 cl-o p-relative text-white'>
-								<h1 className='display-4'>Lorem ipsum dolor sit.</h1>
+							<Box clName='w-75 p-3 cl-o p-relative text-white'>
+								<h1 className='lead'>Lorem ipsum dolor sit.</h1>
 								<h1>Lorem ipsum dolor sit amet consectetur</h1>
 							</Box>
 						</Showcase>
@@ -21,8 +21,8 @@ const Carousel = () => {
 				<CarouselItem cl='carousel-item'>
 					<div className='banner2'>
 						<div className='showcase'>
-							<Box clName='w-75 p-5 cl-o p-relative text-white'>
-								<h1 className='display-4'>Lorem ipsum dolor sit.</h1>
+							<Box clName='w-75 p-3 cl-o p-relative text-white'>
+								<h1 className='lead'>Lorem ipsum dolor sit.</h1>
 								<h1>Lorem ipsum dolor sit amet consectetur</h1>
 							</Box>
 						</div>
@@ -31,8 +31,8 @@ const Carousel = () => {
 				<CarouselItem cl='carousel-item'>
 					<div className='banner3'>
 						<div className='showcase'>
-							<Box clName='w-75 p-5 cl-o p-relative text-white'>
-								<h1 className='display-4'>Lorem ipsum dolor sit.</h1>
+							<Box clName='w-75 p-3 cl-o p-relative text-white'>
+								<h1 className='lead'>Lorem ipsum dolor sit.</h1>
 								<h1>Lorem ipsum dolor sit amet consectetur</h1>
 							</Box>
 						</div>
