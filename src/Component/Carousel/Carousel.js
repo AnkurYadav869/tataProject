@@ -12,8 +12,11 @@ const Carousel = () => {
 					<div className='banner1'>
 						<Showcase>
 							<Box clName='w-75 p-3 cl-o p-relative text-white'>
-								<h1 className='lead'>Lorem ipsum dolor sit.</h1>
-								<h1>Lorem ipsum dolor sit amet consectetur</h1>
+								<h1>Increase Bottom Line</h1>
+								<p className='lead'>
+									Invest in Solar Rooftops, profit from clean energy, save tax &
+									get superior returns than any other investment option
+								</p>
 							</Box>
 						</Showcase>
 					</div>
@@ -22,8 +25,11 @@ const Carousel = () => {
 					<div className='banner2'>
 						<div className='showcase'>
 							<Box clName='w-75 p-3 cl-o p-relative text-white'>
-								<h1 className='lead'>Lorem ipsum dolor sit.</h1>
-								<h1>Lorem ipsum dolor sit amet consectetur</h1>
+								<h1>Profit from Clean Energy</h1>
+								<p className='lead'>
+									Solar panels generate clean and green power from the planet’s
+									most reliable and safest energy source—the sun
+								</p>
 							</Box>
 						</div>
 					</div>
@@ -32,8 +38,11 @@ const Carousel = () => {
 					<div className='banner3'>
 						<div className='showcase'>
 							<Box clName='w-75 p-3 cl-o p-relative text-white'>
-								<h1 className='lead'>Lorem ipsum dolor sit.</h1>
-								<h1>Lorem ipsum dolor sit amet consectetur</h1>
+								<h1>Improve Building Life</h1>
+								<p className='lead'>
+									Reduce HVAC costs, Solar panels add a protective layer to your
+									roof
+								</p>
 							</Box>
 						</div>
 					</div>
